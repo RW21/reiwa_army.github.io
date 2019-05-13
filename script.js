@@ -32,6 +32,3 @@ elem.innerHTML = String(difference);
 var elem = document.getElementById("changeText_");
 elem.innerHTML = String(difference);
 
-// function change() {
-// }
-
