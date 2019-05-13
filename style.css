@@ -1,7 +1,7 @@
-/* #asteroid {
-    width: 70%;
-    height: 70%;
-} */
+
+body {
+    background-color: rgb(254, 238, 237)
+}
 
 .container {
     display: grid;
@@ -14,11 +14,31 @@
     grid-row: 2;
 }
 
-.title{
+.title {
     grid-column: 2;
     grid-row: 1;
     font-family: "Hannari";
     font-size: 10vw;
     text-align: center;
+}
 
+.english {
+    grid-column: 1;
+    grid-row: 2;
+    font-family: "Hannari";
+    font-size: 2vw;
+    text-align: center;
+}
+
+.japanese {
+    grid-column: 3;
+    grid-row: 2;
+    font-family: "Hannari";
+    font-size: 2vw;
+    text-align: center;
+}
+
+#changeText {
+    grid-column:2;
+    grid-row: 3;
 }
